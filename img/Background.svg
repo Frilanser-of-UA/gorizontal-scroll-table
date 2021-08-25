@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="480px" viewBox="0 0 1440 480" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 63.1 (101010) - https://sketch.com -->
+    <title>D9FAB72C-84CC-441B-9FF8-CC41161A08D2</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="1440" height="480"></rect>
+    </defs>
+    <g id="Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="lovat-pricing-OMP">
+            <g id="Background">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#F4F6F8" xlink:href="#path-1"></use>
+                <circle id="Oval" fill="#E9EDF1" mask="url(#mask-2)" cx="429" cy="848" r="540"></circle>
+                <circle id="Oval-Copy" stroke="#E9EDF1" stroke-width="16" mask="url(#mask-2)" cx="1155" cy="-88" r="214"></circle>
+                <circle id="Oval-Copy-4" fill="#FBDB5D" mask="url(#mask-2)" cx="1381" cy="416" r="9"></circle>
+                <circle id="Oval-Copy-5" stroke="#007CD2" stroke-width="3" mask="url(#mask-2)" cx="921" cy="68" r="20"></circle>
+                <circle id="Oval-Copy-6" stroke="#FBDB5D" stroke-width="4" mask="url(#mask-2)" cx="58" cy="356" r="9"></circle>
+            </g>
+        </g>
+    </g>
+</svg>
