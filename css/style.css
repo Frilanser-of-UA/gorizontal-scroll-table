@@ -342,7 +342,7 @@ overflow: hidden;
 	text-align: center;
 	border-top: none;
 }
-.scrolltable--2 thead th, .scrolltable--3 thead th{
+.scrolltable--2 thead th{
 	padding: 16.5px 2px 16.5px 0px;
 }
 .scrolltable .tables__text{
@@ -358,7 +358,7 @@ overflow: hidden;
 	font-size: 16px;
 	font-weight: 600;
 }
-.scrolltable--2 .tables__text, .scrolltable--3 .tables__text{
+.scrolltable--2 .tables__text{
 	font-size: 12px;
 	margin: 0px 0px 0px 0px;
 }
@@ -367,6 +367,7 @@ overflow: hidden;
 	left: 0;
 	position: sticky;
 	z-index: 2;
+	vertical-align: top
 }
 .scrolltable td{
 	padding: 16.5px;
@@ -456,7 +457,7 @@ overflow: hidden;
 	 .scrolltable--1 th, .scrolltable--1 td {
 		border: 1px solid #dfe0e2;
 	}
-	.scrolltable--2  .tables__text, .scrolltable--3  .tables__text{
+	.scrolltable--2  .tables__text{
 		font-size: 18px;
 		margin: 0px 0px 15px 0px;
 	}
