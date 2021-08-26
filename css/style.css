@@ -358,6 +358,11 @@ overflow: hidden;
 	font-size: 16px;
 	font-weight: 600;
 }
+.scrolltable .tables__text--little{
+	font-size: 12px;
+	margin: 0px 0px 0px 0px;
+	line-height: 120%;
+}
 .scrolltable--2 .tables__text{
 	font-size: 12px;
 	margin: 0px 0px 0px 0px;
@@ -367,7 +372,9 @@ overflow: hidden;
 	left: 0;
 	position: sticky;
 	z-index: 2;
-	vertical-align: top
+	vertical-align: top;
+	padding: 16.5px ;
+	text-align: left;
 }
 .scrolltable td{
 	padding: 16.5px;
@@ -457,9 +464,16 @@ overflow: hidden;
 	 .scrolltable--1 th, .scrolltable--1 td {
 		border: 1px solid #dfe0e2;
 	}
+	.scrolltable--2 thead th{
+		padding: 27.5px 2px 32.5px 0px;
+	}
 	.scrolltable--2  .tables__text{
 		font-size: 18px;
 		margin: 0px 0px 15px 0px;
+	}
+	.scrolltable--2 .tables__text--little{
+		font-size: 12px;
+		margin: 0px 0px 0px 0px;
 	}
 	 .scrolltable--1 th:first-of-type::before{
 		 content: "";
