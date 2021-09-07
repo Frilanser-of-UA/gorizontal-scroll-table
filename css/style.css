@@ -101,24 +101,6 @@
 	font-size: inherit;
  }
  /* ========================================================= */
- .header{
-	 height: 80px;
-	 background-color: rgba(43, 61, 82, 0.5);
-	 position: absolute;
-	 left: 0;
-	 top: 0;
-	 z-index: 5;
-	 width: 100%;
-	 font-size: 24px;
-	 text-align: center;
-	 color: #fff;
-	 display: flex;
-	 justify-content: center;
-	 align-items: center;
-	 text-transform: uppercase;
-	 font-weight: 600;
-	 letter-spacing: 2px;
- }
 .pricing .page-header__bg {
 	position: absolute;
 	top: 0;
@@ -505,20 +487,6 @@ overflow: hidden;
 	.scrolltable--1 table {
 		background-color: rgba(33,43,54,0.1);
 	}
-}
-.footer{
-	height: 80px;
-	background-color: rgba(43, 61, 82, 0.5);
-	width: 100%;
-	font-size: 24px;
-	text-align: center;
-	color: #fff;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	text-transform: uppercase;
-	font-weight: 600;
-	letter-spacing: 2px;
 }
 @media (max-width: 420px){
 	.tables{
