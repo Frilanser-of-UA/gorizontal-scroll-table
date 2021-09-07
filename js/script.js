@@ -11,9 +11,13 @@ $(document).ready(function () {
 });
 $(document).ready(function () {
 });
-
+// ========================спойлер===============
 $(document).ready(function () {
 	$('.faq__toggle').click(function (event) {
+		if ($('.faq__item').hasClass('_open-one')) {
+			$('.faq__toggle').not($(this)).removeClass('active');
+			$('.faq__content').not($(this).next()).slideUp(300);
+		}
 		$(this).toggleClass('active').next().slideToggle(300);
 	});
 });
