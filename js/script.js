@@ -9,9 +9,11 @@ $(document).ready(function () {
 		$(this).css({ marginTop: 'calc(' + captionHeight + 'px' + ' + 1em)' });
 	});
 });
-
-
+$(document).ready(function () {
+});
 
 $(document).ready(function () {
-
+	$('.faq__toggle').click(function (event) {
+		$(this).toggleClass('active').next().slideToggle(300);
+	});
 });
